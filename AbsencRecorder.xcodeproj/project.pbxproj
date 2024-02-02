@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BD0FE5E2B6D114F0010A4C1 /* AbsencRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE5D2B6D114F0010A4C1 /* AbsencRecorderApp.swift */; };
+		8BD0FE602B6D114F0010A4C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE5F2B6D114F0010A4C1 /* ContentView.swift */; };
+		8BD0FE622B6D11500010A4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FE612B6D11500010A4C1 /* Assets.xcassets */; };
+		8BD0FE652B6D11500010A4C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD0FE642B6D11500010A4C1 /* Preview Assets.xcassets */; };
+		8BD0FE6F2B6D11510010A4C1 /* AbsencRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE6E2B6D11510010A4C1 /* AbsencRecorderTests.swift */; };
+		8BD0FE792B6D11510010A4C1 /* AbsencRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE782B6D11510010A4C1 /* AbsencRecorderUITests.swift */; };
+		8BD0FE7B2B6D11510010A4C1 /* AbsencRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD0FE7A2B6D11510010A4C1 /* AbsencRecorderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BD0FE6B2B6D11510010A4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD0FE522B6D114F0010A4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD0FE592B6D114F0010A4C1;
+			remoteInfo = AbsencRecorder;
+		};
+		8BD0FE752B6D11510010A4C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD0FE522B6D114F0010A4C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD0FE592B6D114F0010A4C1;
+			remoteInfo = AbsencRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BD0FE5A2B6D114F0010A4C1 /* AbsencRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsencRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD0FE5D2B6D114F0010A4C1 /* AbsencRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsencRecorderApp.swift; sourceTree = "<group>"; };
+		8BD0FE5F2B6D114F0010A4C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BD0FE612B6D11500010A4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BD0FE642B6D11500010A4C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BD0FE6A2B6D11510010A4C1 /* AbsencRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsencRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD0FE6E2B6D11510010A4C1 /* AbsencRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsencRecorderTests.swift; sourceTree = "<group>"; };
+		8BD0FE742B6D11510010A4C1 /* AbsencRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsencRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD0FE782B6D11510010A4C1 /* AbsencRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsencRecorderUITests.swift; sourceTree = "<group>"; };
+		8BD0FE7A2B6D11510010A4C1 /* AbsencRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsencRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD0FE572B6D114F0010A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0FE672B6D11510010A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0FE712B6D11510010A4C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD0FE512B6D114F0010A4C1 = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE5C2B6D114F0010A4C1 /* AbsencRecorder */,
+				8BD0FE6D2B6D11510010A4C1 /* AbsencRecorderTests */,
+				8BD0FE772B6D11510010A4C1 /* AbsencRecorderUITests */,
+				8BD0FE5B2B6D114F0010A4C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD0FE5B2B6D114F0010A4C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE5A2B6D114F0010A4C1 /* AbsencRecorder.app */,
+				8BD0FE6A2B6D11510010A4C1 /* AbsencRecorderTests.xctest */,
+				8BD0FE742B6D11510010A4C1 /* AbsencRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD0FE5C2B6D114F0010A4C1 /* AbsencRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE5D2B6D114F0010A4C1 /* AbsencRecorderApp.swift */,
+				8BD0FE5F2B6D114F0010A4C1 /* ContentView.swift */,
+				8BD0FE612B6D11500010A4C1 /* Assets.xcassets */,
+				8BD0FE632B6D11500010A4C1 /* Preview Content */,
+			);
+			path = AbsencRecorder;
+			sourceTree = "<group>";
+		};
+		8BD0FE632B6D11500010A4C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE642B6D11500010A4C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BD0FE6D2B6D11510010A4C1 /* AbsencRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE6E2B6D11510010A4C1 /* AbsencRecorderTests.swift */,
+			);
+			path = AbsencRecorderTests;
+			sourceTree = "<group>";
+		};
+		8BD0FE772B6D11510010A4C1 /* AbsencRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0FE782B6D11510010A4C1 /* AbsencRecorderUITests.swift */,
+				8BD0FE7A2B6D11510010A4C1 /* AbsencRecorderUITestsLaunchTests.swift */,
+			);
+			path = AbsencRecorderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD0FE592B6D114F0010A4C1 /* AbsencRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD0FE7E2B6D11510010A4C1 /* Build configuration list for PBXNativeTarget "AbsencRecorder" */;
+			buildPhases = (
+				8BD0FE562B6D114F0010A4C1 /* Sources */,
+				8BD0FE572B6D114F0010A4C1 /* Frameworks */,
+				8BD0FE582B6D114F0010A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbsencRecorder;
+			productName = AbsencRecorder;
+			productReference = 8BD0FE5A2B6D114F0010A4C1 /* AbsencRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BD0FE692B6D11510010A4C1 /* AbsencRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD0FE812B6D11510010A4C1 /* Build configuration list for PBXNativeTarget "AbsencRecorderTests" */;
+			buildPhases = (
+				8BD0FE662B6D11510010A4C1 /* Sources */,
+				8BD0FE672B6D11510010A4C1 /* Frameworks */,
+				8BD0FE682B6D11510010A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD0FE6C2B6D11510010A4C1 /* PBXTargetDependency */,
+			);
+			name = AbsencRecorderTests;
+			productName = AbsencRecorderTests;
+			productReference = 8BD0FE6A2B6D11510010A4C1 /* AbsencRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BD0FE732B6D11510010A4C1 /* AbsencRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD0FE842B6D11510010A4C1 /* Build configuration list for PBXNativeTarget "AbsencRecorderUITests" */;
+			buildPhases = (
+				8BD0FE702B6D11510010A4C1 /* Sources */,
+				8BD0FE712B6D11510010A4C1 /* Frameworks */,
+				8BD0FE722B6D11510010A4C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD0FE762B6D11510010A4C1 /* PBXTargetDependency */,
+			);
+			name = AbsencRecorderUITests;
+			productName = AbsencRecorderUITests;
+			productReference = 8BD0FE742B6D11510010A4C1 /* AbsencRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD0FE522B6D114F0010A4C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8BD0FE592B6D114F0010A4C1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8BD0FE692B6D11510010A4C1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8BD0FE592B6D114F0010A4C1;
+					};
+					8BD0FE732B6D11510010A4C1 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8BD0FE592B6D114F0010A4C1;
+					};
+				};
+			};
+			buildConfigurationList = 8BD0FE552B6D114F0010A4C1 /* Build configuration list for PBXProject "AbsencRecorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BD0FE512B6D114F0010A4C1;
+			productRefGroup = 8BD0FE5B2B6D114F0010A4C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD0FE592B6D114F0010A4C1 /* AbsencRecorder */,
+				8BD0FE692B6D11510010A4C1 /* AbsencRecorderTests */,
+				8BD0FE732B6D11510010A4C1 /* AbsencRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD0FE582B6D114F0010A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD0FE652B6D11500010A4C1 /* Preview Assets.xcassets in Resources */,
+				8BD0FE622B6D11500010A4C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0FE682B6D11510010A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0FE722B6D11510010A4C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD0FE562B6D114F0010A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD0FE602B6D114F0010A4C1 /* ContentView.swift in Sources */,
+				8BD0FE5E2B6D114F0010A4C1 /* AbsencRecorderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0FE662B6D11510010A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD0FE6F2B6D11510010A4C1 /* AbsencRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0FE702B6D11510010A4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD0FE7B2B6D11510010A4C1 /* AbsencRecorderUITestsLaunchTests.swift in Sources */,
+				8BD0FE792B6D11510010A4C1 /* AbsencRecorderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BD0FE6C2B6D11510010A4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD0FE592B6D114F0010A4C1 /* AbsencRecorder */;
+			targetProxy = 8BD0FE6B2B6D11510010A4C1 /* PBXContainerItemProxy */;
+		};
+		8BD0FE762B6D11510010A4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD0FE592B6D114F0010A4C1 /* AbsencRecorder */;
+			targetProxy = 8BD0FE752B6D11510010A4C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8BD0FE7C2B6D11510010A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BD0FE7D2B6D11510010A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BD0FE7F2B6D11510010A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AbsencRecorder/Preview Content\"";
+				DEVELOPMENT_TEAM = GMAR433CVA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuvrajPatkar.AbsencRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BD0FE802B6D11510010A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AbsencRecorder/Preview Content\"";
+				DEVELOPMENT_TEAM = GMAR433CVA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuvrajPatkar.AbsencRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BD0FE822B6D11510010A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMAR433CVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuvrajPatkar.AbsencRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbsencRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AbsencRecorder";
+			};
+			name = Debug;
+		};
+		8BD0FE832B6D11510010A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMAR433CVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuvrajPatkar.AbsencRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbsencRecorder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AbsencRecorder";
+			};
+			name = Release;
+		};
+		8BD0FE852B6D11510010A4C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMAR433CVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuvrajPatkar.AbsencRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AbsencRecorder;
+			};
+			name = Debug;
+		};
+		8BD0FE862B6D11510010A4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMAR433CVA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuvrajPatkar.AbsencRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AbsencRecorder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD0FE552B6D114F0010A4C1 /* Build configuration list for PBXProject "AbsencRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD0FE7C2B6D11510010A4C1 /* Debug */,
+				8BD0FE7D2B6D11510010A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD0FE7E2B6D11510010A4C1 /* Build configuration list for PBXNativeTarget "AbsencRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD0FE7F2B6D11510010A4C1 /* Debug */,
+				8BD0FE802B6D11510010A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD0FE812B6D11510010A4C1 /* Build configuration list for PBXNativeTarget "AbsencRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD0FE822B6D11510010A4C1 /* Debug */,
+				8BD0FE832B6D11510010A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD0FE842B6D11510010A4C1 /* Build configuration list for PBXNativeTarget "AbsencRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD0FE852B6D11510010A4C1 /* Debug */,
+				8BD0FE862B6D11510010A4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BD0FE522B6D114F0010A4C1 /* Project object */;
+}
