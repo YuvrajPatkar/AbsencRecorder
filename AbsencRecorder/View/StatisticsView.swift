@@ -12,7 +12,7 @@ struct StatisticsView: View {
     @EnvironmentObject var state: StateController
     var body: some View {
                 Image(systemName: "chart.bar.doc.horizontal")
-                Text("Statistics")
+                Text("Statistics: \(state.divisions[0].code)")
             
         
     }
